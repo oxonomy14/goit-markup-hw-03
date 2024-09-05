@@ -31,10 +31,8 @@ button:focus {
 
 .container {
   max-width: 1158px;
-  padding-left: ;
-  padding-right: ;
-  margin-left: ;
-  margin-right: ;
+ padding: 0 15px;
+ margin: 0 auto;
 }
 
 section {
