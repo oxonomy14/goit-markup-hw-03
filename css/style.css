@@ -35,15 +35,24 @@ button:focus {
   padding-right: ;
   margin-left: ;
   margin-right: ;
-  background-color: #fff;
 }
 
 section {
   padding: 120px 0;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 auto;
+}
+
+img {
+  display: block;
 }
 
 /* HEADER - Шапка сайта - Начало */
@@ -79,14 +88,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .address {
-font-style: normal;
+  font-style: normal;
 }
 
 .address_link {
   font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .address_link:hover {
@@ -102,30 +111,38 @@ color: #434455
 /*FIRST SECTION  - Начало*/
 
 .section_top {
-background-color: #2e2f42;
+  background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .section_top_title {
-font-weight: 700;
-font-size: 56px;
-line-height: 107%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 496px;
 }
 .section_top_button {
-  background-color: #4D5AE5;
-  font-weight: 500; 
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.04em;
-color: #fff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .section_top_button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .section_top_button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /*FIRST SECTION - Конец */
@@ -133,20 +150,19 @@ color: #fff;
 /*SECOND SECTION  - Начало*/
 
 .section_second_title {
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .section_second_descr {
-
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*SECOND SECTION - END */
@@ -154,91 +170,87 @@ color: #434455;
 /*THIRD SECTION - START */
 
 .section_third {
-background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 
 .section_third_list {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 .section_third_main_title {
-font-weight: 700;
-font-size: 36px;
-line-height: 111%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .section_third_title {
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .section_third_descr {
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
-
-
 
 /*THIRD SECTION - END */
 
 /*FOURTH SECTION - START */
 
 .section_fourth_main_title {
-font-weight: 700;
-font-size: 36px;
-line-height: 111%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .section_fourth_title {
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .section_fourth_descr {
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
-
 
 /*FOURTH SECTION - END */
 
 /*FOOTER - Подвал сайта - START */
 
 .footer {
-background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .footer_logo {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer_logo_span {
@@ -246,9 +258,9 @@ color: #4d5ae5;
 }
 
 .footer_descr {
-line-height: 1.5;
-color: #F4F4FD;
-letter-spacing: 0.02em
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 
 /*FOOTER - Подвал сайта - END */
