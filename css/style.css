@@ -57,6 +57,14 @@ img {
 
 /* HEADER - Шапка сайта - Начало */
 
+.header {
+  border-bottom: 1px solid #e7e9fc
+}
+
+.elementy_header {
+  display: flex;
+}
+
 .main_logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
