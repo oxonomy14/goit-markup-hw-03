@@ -31,8 +31,9 @@ button:focus {
 
 .container {
   max-width: 1158px;
- padding: 0 15px;
- margin: 0 auto;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: red;
 }
 
 section {
@@ -56,11 +57,16 @@ img {
 /* HEADER - Шапка сайта - Начало */
 
 .header {
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .elementy_header {
   display: flex;
+}
+
+.nav_header {
+  display: flex;
+  align-items: center;
 }
 
 .main_logo {
@@ -71,13 +77,23 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .main_logo_span {
   color: #2e2f42;
 }
 
-.nav_link {
+.nav_menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav_menu_li {
+  padding: 24px 0;
+}
+
+.nav_menu_link {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -85,16 +101,19 @@ img {
   color: #2e2f42;
 }
 
-.nav_link:hover {
+.nav_menu_link:hover {
   color: #404bbf;
 }
 
-.nav_link:focus {
+.nav_menu_link:focus {
   color: #404bbf;
 }
 
 .address {
   font-style: normal;
+  margin-right: 0;
+
+  background-color: aqua; 
 }
 
 .address_link {
