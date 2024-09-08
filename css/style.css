@@ -33,7 +33,7 @@ button:focus {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  background-color: red;
+  
 }
 
 section {
@@ -90,7 +90,6 @@ img {
 }
 
 .nav_menu_li {
-  
 }
 
 .nav_menu_link {
@@ -114,7 +113,7 @@ img {
   font-style: normal;
   margin-right: 0;
 
-  background-color: aqua; 
+  background-color: aqua;
 }
 
 .address_link {
@@ -163,7 +162,9 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 48px auto 0;
 }
+
 .section_top_button:hover {
   background-color: #404bbf;
 }
