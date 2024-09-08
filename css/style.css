@@ -33,7 +33,7 @@ button:focus {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  
+  background-color: red;
 }
 
 section {
@@ -175,6 +175,8 @@ img {
 /*FIRST SECTION - Конец */
 
 /*SECOND SECTION  - Начало*/
+
+.section_second
 
 .section_second_title {
   font-weight: 500;
