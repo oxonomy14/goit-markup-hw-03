@@ -176,7 +176,9 @@ img {
 
 /*SECOND SECTION  - Начало*/
 
-.section_second
+.section_second {
+  padding: 120px 0;
+}
 
 .section_second_title {
   font-weight: 500;
@@ -192,6 +194,19 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.section_second_list {
+  display: flex;
+  gap: 24px;
+}
+
+.section_second_li {
+  width: calc((100% - 72px) / 4);
+}
+
+.section_second_title {
+  margin-bottom: 8px;
 }
 
 /*SECOND SECTION - END */
