@@ -180,6 +180,10 @@ img {
   padding: 120px 0;
 }
 
+.visually-hidden{
+  visibility: hidden;
+}
+
 .section_second_title {
   font-weight: 500;
   font-size: 20px;
@@ -203,7 +207,7 @@ img {
 }
 
 .section_second_li {
-  width: calc((100% - 72px) / 4);
+flex-basis: calc(((100% - 72px) / 4));
 }
 
 .section_second_title {
