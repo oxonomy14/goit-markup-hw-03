@@ -224,6 +224,8 @@ flex-basis: calc(((100% - 72px) / 4));
 
 .section_third_list {
   background-color: #ffffff;
+   display: flex;
+   gap: 24px;
 }
 
 .section_third_main_title {
@@ -233,9 +235,18 @@ flex-basis: calc(((100% - 72px) / 4));
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
   text-transform: capitalize;
 }
 
+.section_third_li {
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px; 
+}
+
+.staff {
+  padding: 32px 0;
+}
 .section_third_title {
   font-weight: 500;
   font-size: 20px;
@@ -243,6 +254,7 @@ flex-basis: calc(((100% - 72px) / 4));
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section_third_descr {
