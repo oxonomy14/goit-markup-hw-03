@@ -224,6 +224,8 @@ img {
 
 .section_second_li {
   width: calc((100% - 72px) / 4);
+  padding-left: 0px;
+  margin: 0;
 }
 
 .section_second_title {
