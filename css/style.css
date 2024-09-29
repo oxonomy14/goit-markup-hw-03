@@ -183,9 +183,9 @@ img {
   padding: 120px 0;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   visibility: hidden;
-}
+} */
 
 .visually-hidden {
   position: absolute;
@@ -223,7 +223,7 @@ img {
 }
 
 .section_second_li {
-  flex-basis: calc(((100% - 72px) / 4));
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section_second_title {
